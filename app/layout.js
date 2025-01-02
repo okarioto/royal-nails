@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./mobile.css";
 import Header from "@/components/Header.js"
 import Footer from "@/components/Footer";
 

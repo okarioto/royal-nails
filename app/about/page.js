@@ -5,7 +5,7 @@ function About() {
         <div className="about-content content flex-wrapper">
             <div className="about-left-wrapper flex-wrapper">
                 <div className="about-left">
-                    <div className="about-left-card">
+                    <div className="about-left-card flex-wrapper">
                         <Image className="image" src={"/images/aesthetic.jpg"} width={4000} height={5000} alt="aesthetic" />
                     </div>
                 </div>

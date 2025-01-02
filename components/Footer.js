@@ -3,7 +3,7 @@ import Link from "next/link";
 function Footer() {
     return (
         <div className="footer-wrapper flex-wrapper">
-            <footer className="footer">
+            <footer className="footer flex-wrapper">
                 <div className="copyright-wrapper">COPYRIGHT © 2025 ROYALNAILS</div>
                 <div className="footer-sections-wrapper">
                     <section className="footer-services-wrapper">
@@ -13,7 +13,7 @@ function Footer() {
                             <li className="footer-item service-item"><Link href="/services">Pedicures</Link></li>
                         </ul>
                     </section>
-                    <section className="footer-poLinkcies-wrapper">
+                    <section className="footer-policies-wrapper">
                         <h4 className="footer-title">POLICY</h4>
                         <ul className="policies">
                             <li className="footer-item policy-item"><Link href="!!!">Terms Of Service</Link></li>

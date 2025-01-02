@@ -48,6 +48,11 @@ const pediServices = [
         title: "PEDI SERVICE 4",
         price: 44,
         description: 'Nunc sagittis ultricies nunc a sollicitudin.Cras auctor laoreet arcu id elementum.Sed massa ligula, cursus at faucibus sed, molestie.'
+    }, {
+        id: 5,
+        title: "PEDI SERVICE 5",
+        price: 55,
+        description: 'Nunc sagittis ultricies nunc a sollicitudin.Cras auctor laoreet arcu id elementum.Sed massa ligula, cursus at faucibus sed, molestie.'
     }];
 
     export {maniServices, pediServices}
