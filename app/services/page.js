@@ -1,6 +1,9 @@
 import ServiceCard from "./ServiceCard";
 import { maniServices, pediServices } from "./service_list";
 
+export const metadata = {
+    title: 'RoyalNails, Services',
+};
 
 function Services() {
     return <div className="services-content content flex-wrapper">

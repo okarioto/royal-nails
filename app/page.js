@@ -1,5 +1,9 @@
 import Image from 'next/image'; 
 
+export const metadata = {
+  title: 'RoyalNails, Home'
+};
+
 export default function Home() {
   return (
     <div className="home-content content">

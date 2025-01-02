@@ -1,5 +1,8 @@
 import ContactItem from "./ContactItem";
 
+export const metadata = {
+    title: 'RoyalNails, Contact',
+};
 
 function Contact() {
     return <div className="content contact-content flex-wrapper">

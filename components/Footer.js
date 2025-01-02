@@ -16,7 +16,7 @@ function Footer() {
                     <section className="footer-policies-wrapper">
                         <h4 className="footer-title">POLICY</h4>
                         <ul className="policies">
-                            <li className="footer-item policy-item"><Link href="!!!">Terms Of Service</Link></li>
+                            <li className="footer-item policy-item"><Link href="/terms-of-service">Terms Of Service</Link></li>
                         </ul>
                     </section>
                     <section className="footer-contact-wrapper">

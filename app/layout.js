@@ -3,6 +3,13 @@ import "./mobile.css";
 import Header from "@/components/Header.js"
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: 'RoyalNails',
+  icons: {
+    icon: '/icons/favicon.svg',  // Path to a favicon or custom icon
+  }
+};
+
 export default function RootLayout({ children }) {
   return (
 
@@ -22,7 +29,6 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" />
-        <title>Royal Nails</title>
       </head>
       <body>
         <Header />

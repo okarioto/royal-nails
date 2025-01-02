@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: 'RoyalNails, About',
+};
+
 function About() {
     return (
         <div className="about-content content flex-wrapper">
