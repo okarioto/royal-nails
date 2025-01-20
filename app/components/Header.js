@@ -51,7 +51,7 @@ export default function Header() {
 
                         </li>
                         <li onClick={closeNav} className="font-subtitle text-[14px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black mr-4 h-[23px] overflow-hidden">
-                            <Link href={"/Services"} className="group flex flex-col mr-4 h-[23px] overflow-hidden">
+                            <Link href={"/services"} className="group flex flex-col mr-4 h-[23px] overflow-hidden">
                                 <p className="group-hover:-translate-y-[63px] duration-700">Services</p>
                                 <p className="group-hover:-translate-y-[63px] duration-700">Services</p>
                                 <p className="group-hover:-translate-y-[63px] duration-700">Services</p>
@@ -60,7 +60,7 @@ export default function Header() {
 
                         </li>
                         <li onClick={closeNav} className="font-subtitle text-[14px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black mr-4 h-[23px] overflow-hidden">
-                            <Link href={"/Contact"} className="group flex flex-col mr-4 h-[23px] overflow-hidden">
+                            <Link href={"/contact"} className="group flex flex-col mr-4 h-[23px] overflow-hidden">
                                 <p className="group-hover:-translate-y-[63px] duration-700">Contact</p>
                                 <p className="group-hover:-translate-y-[63px] duration-700">Contact</p>
                                 <p className="group-hover:-translate-y-[63px] duration-700">Contact</p>
