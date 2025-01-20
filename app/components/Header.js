@@ -85,11 +85,11 @@ export default function Header() {
                 <ul ref={navRef} className="flex flex-col w-[80%] items-end mb-5">
                     <li onClick={closeNav} className="font-subtitle text-[12px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black mb-3"><Link href={"/"}>Home</Link> </li>
 
-                    <li onClick={closeNav} className="flex flex-col font-subtitle text-[12px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black mb-3" ><div className="flex"><Link href={"/Services"} >Services</Link></div>
+                    <li onClick={closeNav} className="flex flex-col font-subtitle text-[12px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black mb-3" ><div className="flex"><Link href={"/services"} >Services</Link></div>
                     </li>
 
 
-                    <li onClick={closeNav} className="font-subtitle text-[12px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black"><Link href={"/Contact"}>Contact</Link> </li>
+                    <li onClick={closeNav} className="font-subtitle text-[12px] tracking-[0.3rem] font-bold text-secondary-text hover:text-black"><Link href={"/contact"}>Contact</Link> </li>
                 </ul>
             </div>
             {/* end mobile nav */}

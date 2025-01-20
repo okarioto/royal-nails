@@ -7,13 +7,13 @@ export default function Footer() {
             <div className="flex flex-col w-[80%] md:flex-row-reverse md:justify-between">
                 <div className="flex flex-1 flex-col pt-8 pb-5 md:flex-row md:gap-14">
                     <div className="flex flex-col items-start mb-3">
-                        <h3 className="font-subtitle text-[12px] font-extrabold tracking-widest"><Link href={"/Services"}>SERVICES</Link></h3>
+                        <h3 className="font-subtitle text-[12px] font-extrabold tracking-widest"><Link href={"/services"}>SERVICES</Link></h3>
                         <ul>
-                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/Services#acrylic"}>Acrylic</Link> </li>
-                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/Services#solar"}>Solar</Link></li>
-                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/Services#gel"}>Gel</Link></li>
-                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/Services#nail care"}>Nail Cars</Link> </li>
-                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/Services#massage"}>Massage</Link></li>
+                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/services#acrylic"}>Acrylic</Link> </li>
+                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/services#solar"}>Solar</Link></li>
+                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/services#gel"}>Gel</Link></li>
+                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/services#nail care"}>Nail Cars</Link> </li>
+                            <li className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black"><Link href={"/services#massage"}>Massage</Link></li>
                         </ul>
                     </div>
                     <div className="flex flex-col items-start mb-3">
