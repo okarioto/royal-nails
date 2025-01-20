@@ -6,10 +6,15 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'background': '#F1F0F0',
+        'secondary-text': '#5f5f5f'
+      },
+      fontFamily: {
+        title: ['Orbitron', 'serif'],
+        subtitle: ['Jura', 'sans-serif'],
       },
     },
   },
