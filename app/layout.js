@@ -1,4 +1,5 @@
 import "./globals-tw.css";
+import { Analytics } from "@vercel/analytics/react"
 import Header from "./components/Header.js"
 import Footer from "./components/Footer";
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
       <body className="flex flex-col min-h-screen">
         <Header />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
