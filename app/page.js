@@ -1,5 +1,3 @@
-
-
 export const metadata = {
   title: 'Home'
 };
@@ -7,11 +5,10 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="flex-1 flex justify-center">
-      <div className="flex flex-col w-[80%] mt-5 items-center xl:flex-row xl:gap-20">
+      <div className="flex flex-col w-[80%] mt-14 items-center xl:flex-row xl:gap-20">
         <div className="flex flex-col w-full items-center justify-center xl:flex-[60%]">
-          <div className="flex flex-col w-full">
-            <h1 className="font-title tracking-[1.5rem] text-[32px]">Nails!</h1>
-            <p className="font-subtitle text-[14px] mt-5 md:text-[20px] md:text-justify">At Royal Nails, we’ve been proudly serving the Vancouver community for over 20 years, making us the longest-standing nail salon in the city. Our commitment to excellence and customer satisfaction has earned us a loyal following and a reputation for quality. Our skilled technicians offer a range of services, from classic manicures and pedicures to luxurious gel and acrylic nail enhancements, all tailored to your unique style.</p>
+          <div className="flex w-full justify-center items-center bg-background rounded-3xl">
+            <p className="font-subtitle text-[14px] md:text-[20px] md:text-justify p-9">At Royal Nails, we’ve been proudly serving the Vancouver community for over 20 years, making us the longest-standing nail salon in the city. Our commitment to excellence and customer satisfaction has earned us a loyal following and a reputation for quality. Our skilled technicians offer a range of services, from classic manicures and pedicures to luxurious gel and acrylic nail enhancements, all tailored to your unique style.</p>
           </div>
 
           <img src="/images/feet.jpg" className="mt-7 mb-7 rounded-3xl" />

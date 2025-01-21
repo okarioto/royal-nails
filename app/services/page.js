@@ -13,6 +13,6 @@ export default function Services() {
             {full_menu.map((menu_item, idx) => {
                 return <MenuCard key={idx} title={menu_item.title} items={menu_item.items} />
             })}
-
+            <p className="w-[90%] font-subtitle text-secondary-text text-[10px] tracking-tighter text-center md:text-[14px] mb-10">please be aware prices are subject to change depending on complexity</p>
         </div>)
 }
