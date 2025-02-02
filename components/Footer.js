@@ -7,31 +7,31 @@ export default function Footer() {
             <div className="flex flex-col w-[80%] md:flex-row-reverse md:justify-between">
                 <div className="flex flex-1 flex-col pt-8 pb-5 md:flex-row md:gap-14">
                     <div className="flex flex-col items-start mb-3">
-                        <h3 className="font-subtitle text-[16px] font-extrabold tracking-widest"><Link href={"/services"}>SERVICES</Link></h3>
+                        <h3 className="font-subtitle text-[16px] font-bold tracking-widest w-[9rem]"><Link href={"/services"}>SERVICES</Link></h3>
                         <ul>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#gel"}>Gel</Link></li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#acrylic"}>Acrylic</Link> </li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#solar"}>Solar</Link></li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#manicure & pedicure"}>Manicure & Pedicure</Link> </li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#deluxe treatments"}>Deluxe Treatments</Link> </li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#add ons and extras"}>Add Ons And Extras</Link> </li>
-                            <li className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black"><Link href={"/#massage"}>Massage</Link></li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#gel"}>Gel</Link></li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#acrylic"}>Acrylic</Link> </li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#solar"}>Solar</Link></li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#manicure & pedicure"}>Manicure & Pedicure</Link> </li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#deluxe treatments"}>Deluxe Treatments</Link> </li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#add ons and extras"}>Add Ons And Extras</Link> </li>
+                            <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#massage"}>Massage</Link></li>
                         </ul>
                     </div>
                     <div className="flex flex-col items-start mb-3">
                         <h3 className="font-subtitle text-[16px] font-bold tracking-widest w-[7rem]">CONTACT</h3>
-                        <a href="tel:+16047335090" target="_blank" className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black">Phone</a>
-                        <a href="https://www.instagram.com/royalnailsvan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black">@Instagram</a>
-                        <a href="https://www.facebook.com/profile.php?id=100070722871845" target="_blank" className="font-subtitle text-[13px] font-bold text-secondary-text hover:text-black">@Facebook</a>
+                        <a href="tel:+16047335090" target="_blank" className="font-subtitle text-[12px] font-bold text-secondary-text hover:text-black">Phone</a>
+                        <a href="https://www.instagram.com/royalnailsvan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="font-subtitle text-[13px]  text-secondary-text hover:text-black">@Instagram</a>
+                        <a href="https://www.facebook.com/profile.php?id=100070722871845" target="_blank" className="font-subtitle text-[13px]  text-secondary-text hover:text-black">@Facebook</a>
                     </div>
                     <div className="flex flex-col items-start">
                         <h3 className="font-subtitle text-[16px] font-bold tracking-widest">ADDRESS</h3>
-                        <a href={mapLink} target="_blank" className="font-subtitle text-[13px] font-bold text-secondary-text w-[11rem] hover:text-black">108-1688 West Broadway Vancouver, BC V6J 1X60</a>
+                        <a href={mapLink} target="_blank" className="font-subtitle text-[13px] text-secondary-text w-[11rem] hover:text-black">108-1688 West Broadway Vancouver, BC V6J 1X60</a>
 
                     </div>
                 </div>
                 <div className="flex flex-1 justify-start items-center mb-5 md:mb-0">
-                    <p className="font-subtitle text-[14px] font-bold text-secondary-text">COPYRIGHT © 2025 ROYAL NAILS</p>
+                    <p className="font-subtitle text-[15px]  text-secondary-text">COPYRIGHT © 2025 ROYAL NAILS</p>
                 </div>
 
             </div>
