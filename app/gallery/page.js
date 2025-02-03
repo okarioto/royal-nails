@@ -38,7 +38,7 @@ export default function Gallery() {
     }
 
     useEffect(() => {
-        const observer = new IntersectionObserver(observerCallBack, { threshold: 0.8 });
+        const observer = new IntersectionObserver(observerCallBack, { threshold: 1 });
         if (loadMoreRef.current) {
             observer.observe(loadMoreRef.current);
         }
@@ -69,10 +69,10 @@ export default function Gallery() {
             {floatIsVisible &&
                 <div className="fixed top-0 w-screen h-screen bg-white bg-opacity-70 z-10"
                     onClick={closeFloat}>
-                    <div className="fixed top-[50vh] left-[50vw] -translate-x-1/2  -translate-y-1/2 duration-700 delay-500">
-                        <img src={`/images/gallery/${focusImage}`} alt="" className=" w-[30rem] rounded-xl shadow-md opacity-100"
-                            onClick={(e) => e.stopPropagation()} />
-                    </div>
+
+                    <img src={`/images/gallery/${focusImage}`} alt="" className="fixed top-[50vh] left-[50vw] -translate-x-1/2  -translate-y-1/2  h-[95vw]  md:h-[90vh] w-auto rounded-xl shadow-md opacity-100"
+                        onClick={(e) => e.stopPropagation()} />
+
                 </div>}
 
             <div className="m-10 grid gap-10  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -84,10 +84,11 @@ export default function Gallery() {
                         alt=""
                         className="place-self-center object-cover w-[20rem] h-[25rem] rounded-xl shadow-md hover:opacity-70 cursor-pointer"
                         onClick={openFloat}
+                        loading="lazy"
                     />
                 ))}
             </div>
-            <div ref={loadMoreRef} className="absolute w-full h-[20rem] -translate-y-1/2">
+            <div ref={loadMoreRef} className="absolute left-[50vw] -translate-x-1/2 translate-y-1/2 w-[90vw] h-[10rem] border-2 border-blue-300">
 
             </div>
         </div>
