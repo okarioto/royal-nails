@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 
 
 export default function Gallery() {
-    const imgCount = 4;
+    const imgCount = 8;
     const loadMoreRef = useRef(null)
     const [focusImage, setFocusImage] = useState("");
     const [floatIsVisible, setFloatIsVisible] = useState(false)
@@ -88,7 +88,7 @@ export default function Gallery() {
                     />
                 ))}
             </div>
-            <div ref={loadMoreRef} className="absolute left-[50vw] -translate-x-1/2 translate-y-1/2 w-[90vw] h-[10rem] border-2 border-blue-300">
+            <div ref={loadMoreRef} className="absolute left-[50vw] -translate-x-1/2 translate-y-1/2 w-[90vw] h-[10rem]">
 
             </div>
         </div>
