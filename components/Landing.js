@@ -27,7 +27,6 @@ export default function Landing() {
                     <img src={"/images/liquidPipette.jpg"} alt="" className="object-cover min-h-[30rem] max-h-[50rem] w-full duration-1000"
                         style={{
                             borderRadius: bigIsInview ? '5%' : '40%',
-                            opacity: bigIsInview ? '1' : '0.4'
                         }} />
                         
                     <div className="absolute top-0 h-full flex items-center justify-center flex-col duration-1000 delay-200 bg-white bg-opacity-30 lg:bg-opacity-0 lg:items-end lg:justify-start lg:top-10 lg:right-16"
