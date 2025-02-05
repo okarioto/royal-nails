@@ -28,8 +28,7 @@ export default function Hours() {
                     <HoursCard />
                 </div>
                 <img ref={imgRef} src="/images/lotionCreamSwab.jpg" alt="" className="object-cover w-[90%] h-[30rem] rounded-xl md:w-[40%] lg:w-[50%] md:h-[40rem] lg:h-[50rem] duration-1000 mt-5"
-                 style={{borderRadius: isInView? '5%': "30%",
-                     opacity: isInView ? "1" : "0.4"
+                 style={{borderRadius: isInView? '5%': "30%"
                  }}/>
 
             </div>
