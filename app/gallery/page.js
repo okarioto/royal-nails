@@ -82,7 +82,7 @@ export default function Gallery() {
                         id={img}
                         src={`/images/gallery/${img}`}
                         alt=""
-                        className="place-self-center object-cover w-[20rem] h-[25rem] rounded-xl shadow-md hover:opacity-70 cursor-pointer"
+                        className="place-self-center object-cover w-[20rem] h-[25rem] rounded-xl shadow-md hover:opacity-70 cursor-pointer hover:scale-95 duration-150"
                         onClick={openFloat}
                         loading="lazy"
                     />

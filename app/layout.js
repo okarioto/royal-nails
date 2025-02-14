@@ -6,9 +6,13 @@ import Footer from "@/components/Footer"
 
 export const metadata = {
   title: 'RoyalNails',
+
   icons: {
-    icon: '/icons/favicon.svg', 
-  }
+    icon: [
+      { url: "/icons/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/favicon.png", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
