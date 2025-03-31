@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="flex flex-col w-[80%] md:flex-row-reverse md:justify-between">
                 <div className="flex flex-1 flex-col pt-8 pb-5 md:flex-row md:gap-14">
                     <div className="flex flex-col items-start mb-3">
-                        <h3 className="font-subtitle text-[16px] font-bold tracking-widest w-[9rem]"><Link href={"/services"}>SERVICES</Link></h3>
+                        <h3 className="font-subtitle text-[16px] font-bold tracking-widest w-[9rem]">SERVICES</h3>
                         <ul>
                             <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#gel"}>Gel</Link></li>
                             <li className="font-subtitle text-[14px]  text-secondary-text hover:text-black"><Link href={"/#acrylic"}>Acrylic</Link> </li>

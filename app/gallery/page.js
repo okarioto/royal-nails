@@ -10,16 +10,17 @@ export default function Gallery() {
     const [floatIsVisible, setFloatIsVisible] = useState(false)
     const [images, setImages] = useState([]);
     const [page, setPage] = useState(1);
+    const [isLoading, setIsLoading] = useState(true);
 
 
     useEffect(() => {
         async function fetchImages() {
             try {
-
+                setIsLoading(true);
                 const res = await fetch(`/api/images?page=${page}&limit=${imgCount}`);
                 const data = await res.json();
                 setImages((prev) => [...prev, ...data]);
-
+                setIsLoading(false);
             } catch (error) {
                 console.error("Failed to fetch images:", error);
             }
@@ -50,18 +51,9 @@ export default function Gallery() {
     function openFloat(e) {
         setFocusImage(e.target.id);
         setFloatIsVisible(true);
-
     }
     function closeFloat() {
-        setFloatIsVisible(false)
-
-    }
-
-    if (!images) {
-        return (
-            <div className="flex-1 flex justify-center items-center">
-                <p className="font-subtitle text-[1rem]">Failed Loading Images...</p>
-            </div>)
+        setFloatIsVisible(false);
     }
     return (
 
@@ -88,8 +80,14 @@ export default function Gallery() {
                     />
                 ))}
             </div>
-            <div ref={loadMoreRef} className="absolute left-[50vw] -translate-x-1/2 translate-y-1/2 w-[90vw] h-[10rem]">
-
+            {isLoading  && 
+                <div className="text-center font-title tracking-[1rem] mt-10 mb-10"> loading images 
+                <span className="animate-bounce inline-block ">.</span>
+                    <span className="animate-bounce inline-block [animation-delay:0.2s]">.</span>
+                    <span className="animate-bounce inline-block [animation-delay:0.4s]">.</span>
+                </div>
+            }
+            <div ref={loadMoreRef} className="absolute left-[50vw] -translate-x-1/2 translate-y-1/2 w-[90vw] h-[10rem] -z-10">
             </div>
         </div>
 
