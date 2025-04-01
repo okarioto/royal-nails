@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 
 
 export default function Gallery() {
-    const imgCount = 8;
+    const imgCount = 12;
     const loadMoreRef = useRef(null)
     const [focusImage, setFocusImage] = useState("");
     const [floatIsVisible, setFloatIsVisible] = useState(false)
@@ -67,21 +67,21 @@ export default function Gallery() {
 
                 </div>}
 
-            <div className="m-10 grid gap-10  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="m-4 sm:m-10 grid gap-2 sm:gap-10  grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {images.map((img, index) => (
                     <img
                         key={index}
                         id={img}
                         src={`/images/gallery/${img}`}
                         alt=""
-                        className="place-self-center object-cover w-[20rem] h-[25rem] rounded-xl shadow-md hover:opacity-70 cursor-pointer hover:scale-95 duration-150"
+                        className="place-self-center object-cover w-full h-full  rounded-xl shadow-md hover:opacity-70 cursor-pointer hover:scale-95 duration-150"
                         onClick={openFloat}
                         loading="lazy"
                     />
                 ))}
             </div>
             {isLoading  && 
-                <div className="text-center font-title tracking-[1rem] mt-10 mb-10"> loading images 
+                <div className="text-center font-title tracking-[0.2rem] md:tracking-[1rem] mt-10 mb-10 text-sm md:text-xl"> loading images 
                 <span className="animate-bounce inline-block ">.</span>
                     <span className="animate-bounce inline-block [animation-delay:0.2s]">.</span>
                     <span className="animate-bounce inline-block [animation-delay:0.4s]">.</span>

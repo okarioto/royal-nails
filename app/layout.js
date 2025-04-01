@@ -5,7 +5,7 @@ import Footer from "@/components/Footer"
 
 
 export const metadata = {
-  title: 'RoyalNails',
+  title: 'Royal Nails',
 
   icons: {
     icon: [
