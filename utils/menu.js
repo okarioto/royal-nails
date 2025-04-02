@@ -1,15 +1,15 @@
 const acrylic = {
     title: "acrylic",
     blurb: "Known for their strength and durability, acrylic nails are created using a liquid and powder combination that hardens to form a protective layer over your natural nails. Ideal for those looking for longer, sculpted nails with a polished, long-lasting finish.",
-    items: [{ name: "Full Set Acrylic", price: "$47 & up" }, { name: "Acrylic Fill", price: "$52 & up" }, { name: "Full Set Acrylic 2 Tone", price: "$57 & up" }, { name: "Acrylic 2 Tone Fill", price: "$42 & up" }, { name: "Clear Gel On Top", price: "$7 & up" }]
+    items: [{ name: "Full Set Acrylic", price: "$47 & up" }, { name: "Acrylic Fill", price: "$52 & up" }, { name: "Full Set Acrylic 2 Tone", price: "$57 & up" }, { name: "Acrylic 2 Tone Fill", price: "$42 & up" }]
 }
 
 
 
 const gel = {
     title: "gel",
-    blurb: "A lightweight and flexible option, gel nails provide a glossy, natural look while maintaining durability. Cured under a UV or LED lamp, they offer a chip-resistant, smooth finish that lasts up to three weeks. A great choice for those who prefer a sleek and refined appearance.",
-    items: [{ name: "Full Set Gel", price: "$55 & up" }, { name: "Gel Fill", price: "$40 & up" }, { name: "Full Set Gel 2 Tone", price: "$42 & up" }, { name: "Gel 2 Tone & Fill", price: "$50 & up" }]
+    blurb: "A lightweight and flexible option, gel nails provide a glossy, natural look while maintaining durability. Cured under a LED lamp, they offer a chip-resistant, smooth finish that lasts up to three weeks. A great choice for those who prefer a sleek and refined appearance.",
+    items: [{ name: "Full Set Gel", price: "$55 & up" }, { name: "Gel Fill", price: "$40 & up" }, { name: "Full Set Gel 2 Tone", price: "$42 & up" }, { name: "Gel 2 Tone & Fill", price: "$50 & up" }, { name: "Clear Gel On Top", price: "$7 & up" }]
 }
 
 
