@@ -22,7 +22,7 @@ export default function HoursCard(){
         <div ref={imgRef} className="flex justify-center items-center w-full  border-r-[1px] border-l-[1px] border-black  overflow-hidden duration-1000 "
         style={{borderRadius: isInView? "10%":"50%"}}>
             <div className="flex flex-col w-[80%] mt-4 mb-5 justify-center items-start duration-1000 delay-200"
-            style={{opacity: isInView? "1": "0.3"}}>
+            style={{opacity: isInView? "1": "0"}}>
                 <h3 className="font-title tracking-[0.5rem] text-[26px] md:text-[34px] md:mt-7">Hours</h3>
 
                 <div className="flex justify-between w-full mb-2 md:mb-10 md:mt-3">
