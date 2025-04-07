@@ -38,7 +38,7 @@ export default function Services() {
                         {full_menu.map((menu_item, idx) => {
                             return <MenuCard key={idx} title={menu_item.title} items={menu_item.items} blurb={menu_item.blurb} />
                         })}
-                        <p className="w-[90%] font-subtitle text-secondary-text text-[10px] tracking-tighter text-center md:text-[14px] mb-10">please be aware prices are subject to change depending on complexity</p>
+                        <p className="w-[90%] font-subtitle text-secondary-text text-[10px] tracking-tighter text-center md:text-[14px] mb-10">Please be aware prices are subject to change depending on complexity.</p>
                     </div>
                     <div className="flex flex-col md:flex-row xl:flex-col items-center justify-evenly col-span-2 ">
                         <img ref={img1Ref} src="/images/threeLotion.jpg" alt="" className="mt-10 mb-10 w-[20rem] md:w-[20rem] md:mb-0 md:mt-0.5 md:h-[25rem] xl:h-auto xl:w-[30rem] xl:mt-10 duration-700"

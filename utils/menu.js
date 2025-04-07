@@ -1,7 +1,7 @@
 const acrylic = {
     title: "acrylic",
     blurb: "Known for their strength and durability, acrylic nails are created using a liquid and powder combination that hardens to form a protective layer over your natural nails. Ideal for those looking for longer, sculpted nails with a polished, long-lasting finish.",
-    items: [{ name: "Full Set Acrylic", price: " 47 & up" }, { name: "Acrylic Fill", price: " 52 & up" }, { name: "Full Set Acrylic 2 Tone", price: " 57 & up" }, { name: "Acrylic 2 Tone Fill", price: " 42 & up" }]
+    items: [{ name: "Full Set Acrylic", price: " 47 & up" }, { name: "Acrylic Fill", price: " 42 & up" }, { name: "Full Set Acrylic 2 Tone", price: " 57 & up" }, { name: "Acrylic 2 Tone Fill", price: " 42 & up" }]
 }
 
 
