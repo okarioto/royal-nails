@@ -1,10 +1,11 @@
 'use client'
 import { useRef, useState, useEffect } from "react";
+import Image from 'next/image'
 
 
 
 export default function Gallery() {
-    const imgCount = 12;
+    const imgCount = 6;
     const loadMoreRef = useRef(null)
     const [focusImage, setFocusImage] = useState("");
     const [floatIsVisible, setFloatIsVisible] = useState(false)
@@ -62,27 +63,29 @@ export default function Gallery() {
                 <div className="fixed top-0 w-screen h-screen bg-white bg-opacity-70 z-10"
                     onClick={closeFloat}>
 
-                    <img src={`/images/gallery/${focusImage}`} alt="" className="fixed top-[50vh] left-[50vw] -translate-x-1/2  -translate-y-1/2  h-[95vw]  md:h-[90vh] w-auto rounded-xl shadow-md opacity-100"
+                    <img src={`/images/gallery/${focusImage}`} alt="" className=" fixed top-[50vh] left-[50vw] -translate-x-1/2 -translate-y-1/2 max-w-[95vw] max-h-[90vh] w-auto h-auto rounded-xl shadow-md"
                         onClick={(e) => e.stopPropagation()} />
 
                 </div>}
 
-            <div className="m-4 sm:m-10 grid gap-2 sm:gap-10  grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="m-4 sm:m-10 grid gap-2 sm:gap-10  grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
                 {images.map((img, index) => (
-                    <img
+                    <Image
                         key={index}
                         id={img}
                         src={`/images/gallery/${img}`}
                         alt=""
-                        className="place-self-center object-cover w-full h-full  rounded-xl shadow-md hover:opacity-70 cursor-pointer hover:scale-95 duration-150"
+                        width={288}
+                        height={288}
+                        className="place-self-center object-cover w-full aspect-square    hover:opacity-70 cursor-pointer  duration-150"
                         onClick={openFloat}
                         loading="lazy"
                     />
                 ))}
             </div>
-            {isLoading  && 
-                <div className="text-center font-title tracking-[0.2rem] md:tracking-[1rem] mt-10 mb-10 text-sm md:text-xl"> loading images 
-                <span className="animate-bounce inline-block ">.</span>
+            {isLoading &&
+                <div className="text-center font-title tracking-[0.2rem] md:tracking-[1rem] mt-10 mb-10 text-sm md:text-xl"> loading images
+                    <span className="animate-bounce inline-block ">.</span>
                     <span className="animate-bounce inline-block [animation-delay:0.2s]">.</span>
                     <span className="animate-bounce inline-block [animation-delay:0.4s]">.</span>
                 </div>
