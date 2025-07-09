@@ -4,7 +4,10 @@ import path from "path";
 export async function GET(request) {
     const galleryPath = path.join(process.cwd(), "public/images/gallery");
     try {
-        const files = fs.readdirSync(galleryPath).reverse();
+        const files = fs
+            .readdirSync(galleryPath)
+            .filter(file => file.endsWith('.webp'))
+            .reverse();
 
         const { searchParams } = new URL(request.url);
         const page = parseInt(searchParams.get("page") || "1", 10);
