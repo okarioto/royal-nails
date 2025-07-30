@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://royal-nails.kim
+
+# Sitemaps
+Sitemap: https://royal-nails.kim/sitemap.xml
