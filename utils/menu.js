@@ -24,7 +24,7 @@ const solar = {
 const mani_pedi = {
     title: "manicures & pedicures",
     blurb: "Keep your hands and feet looking their best with our expert manicures and pedicures. Whether you need a quick refresh or a full treatment, we ensure healthy, polished nails with a flawless finish.",
-    items: [{ name: "Regular Pediucre", price: " 39 & up" }, { name: "Regular Manicure", price: " 25 & up" }, { name: "Regular Manicure & Pedicure", price: " 57 & up" }, { name: "Mini Manicure & Pedicure", price: " 47 & up" }, { name: "Princess Manicure & Pedicure \n (For childeren under 13)", price: " 40 & up" }]
+    items: [{ name: "Regular Pediucre", price: " 39 & up" }, { name: "Gel Polish Pedicure", price: " 52 & up" }, { name: "Regular Manicure", price: " 25 & up" }, { name: "Regular Manicure & Pedicure", price: " 57 & up" }, { name: "Mini Manicure & Pedicure", price: " 47 & up" }, { name: "Princess Manicure & Pedicure \n (For childeren under 13)", price: " 40 & up" }]
 }
 
 const deluxe_mani_pedi = {
@@ -36,7 +36,7 @@ const deluxe_mani_pedi = {
 const add_ons = {
     title: "add ons and extras",
     blurb: "Enhance your service with gel polish, paraffin treatments, polish changes, and more. These finishing touches help you achieve the perfect look while keeping your nails healthy and strong.",
-    items: [{ name: "Add Gel Polish", price: " 15 & up" }, , { name: "Gel Polish Change", price: " 34 & up" }, { name: "Polish Change", price: " 17 & up" }, { name: "Nail Cut", price: " 15 & up" }, { name: "Acrylic/Gel/Solar Take Off", price: " 22 & up" }, { name: "Paraffin Hand Treatment", price: " 10" }, { name: "Paraffin Feet Treatment", price: " 15" }, {name: "Gel Polish Peidcure", price: " 59 & up"}]
+    items: [{ name: "Add Gel Polish", price: " 15 & up" }, , { name: "Gel Polish Change", price: " 34 & up" }, { name: "Polish Change", price: " 17 & up" }, { name: "Nail Cut", price: " 15 & up" }, { name: "Acrylic/Gel/Solar Take Off", price: " 22 & up" }, { name: "Paraffin Hand Treatment", price: " 15" }, { name: "Paraffin Feet Treatment", price: " 17" }]
 }
 
 const massage = {
