@@ -24,7 +24,7 @@ const solar = {
 const mani_pedi = {
     title: "manicures & pedicures",
     blurb: "Keep your hands and feet looking their best with our expert manicures and pedicures. Whether you need a quick refresh or a full treatment, we ensure healthy, polished nails with a flawless finish.",
-    items: [{ name: "Regular Pediucre", price: " 39 & up" }, { name: "Gel Polish Pedicure", price: " 52 & up" }, { name: "Regular Manicure", price: " 25 & up" }, { name: "Regular Manicure & Pedicure", price: " 57 & up" }, { name: "Mini Manicure & Pedicure", price: " 47 & up" }, { name: "Princess Manicure & Pedicure \n (For childeren under 13)", price: " 40 & up" }]
+    items: [{ name: "Regular Pedicure", price: " 39 & up" }, { name: "Gel Polish Pedicure", price: " 52 & up" }, { name: "Regular Manicure", price: " 25 & up" }, { name: "Regular Manicure & Pedicure", price: " 57 & up" }, { name: "Mini Manicure & Pedicure", price: " 47 & up" }, { name: "Princess Manicure & Pedicure \n (For childeren under 13)", price: " 40 & up" }]
 }
 
 const deluxe_mani_pedi = {
